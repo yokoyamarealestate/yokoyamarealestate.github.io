@@ -1,0 +1,96 @@
+@import 'https://fonts.googleapis.com/css?family=Old+Standard+TT';
+body { 
+  margin: 0;
+  font-family: 'Old Standard TT', serif;
+}
+h2 {
+  font-size: 6vw;
+}
+
+h3 {
+  font-size: 3vw;
+}
+h4 {
+  font-size: 2.5vw;
+}
+section {
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center; 
+  -webkit-box-orient: vertical; 
+  -webkit-box-direction: normal; 
+  -webkit-flex-direction: column; 
+      -ms-flex-direction: column; 
+          flex-direction: column;
+  padding: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 4vw; 
+}
+section:first-of-type h1{ 
+  font-size: 10vw;
+}
+section:first-of-type h2{ 
+  font-size: 6vw;
+}
+section:first-of-type, section.pop { 
+  color: white;
+  text-shadow: 4px 4px 2px black; 
+}
+.msg { 
+  background: #fff;
+}
+.h30 {
+  height: 30vh; 
+}
+.bed {
+  background-image: url(https://ds3.cityrealty.com/img/4bc4e791d23f0361a1dc28c91d8129e7a9225c7a+w+h+0+60/1600-broadway-01.jpg);  
+}
+.bath {
+  background-image: url(https://ds2.cityrealty.com/img/38ef81f1040f8405af377784ff7bca464a2db7f5+w+h+0+60/1600-broadway-05.jpg);  
+}
+.gym {
+  background-image: url(https://ds3.cityrealty.com/img/b82f2a9fc54f580f9dc6508ed306a7e8e82e3c57+w+h+0+60/1600-broadway-02.jpg);  
+}
+.patio {
+  background-image: url(../img/patio.jpg);  
+}
+.navbar-fixed-top {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+}
+.bgimg { 
+  top: 50%;
+  left: 50%;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.h90 {
+  height: 90vh;
+}
+#amen li {
+  padding-top: 10px;
+}

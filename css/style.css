@@ -39,6 +39,14 @@ section {
   background-attachment: fixed;
   font-size: 4vw; 
 }
+
+
+@media screen and (max-device-width: 800px) {
+  section {
+    background-attachment: scroll;
+  }
+}
+
 section:first-of-type h1{ 
   font-size: 10vw;
 }
@@ -56,7 +64,7 @@ section:first-of-type, section.pop {
   height: 30vh; 
 }
 .bed {
-  background-image: url(https://ds3.cityrealty.com/img/4bc4e791d23f0361a1dc28c91d8129e7a9225c7a+w+h+0+60/1600-broadway-01.jpg);  
+  background-image: url();  
 }
 .bath {
   background-image: url(https://ds2.cityrealty.com/img/38ef81f1040f8405af377784ff7bca464a2db7f5+w+h+0+60/1600-broadway-05.jpg);  

@@ -45,12 +45,12 @@ section {
 }
 
 
-@media screen and (max-device-width: 800px) {
+/*@media screen and (max-device-width: 800px) {
   section {
     background-attachment: scroll;
   }
 }
-
+*/
 section:first-of-type h1{ 
   font-size: 10vw;
 }

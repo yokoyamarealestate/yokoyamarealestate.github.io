@@ -32,7 +32,7 @@ html {
   transform: scale(1);
   -webkit-animation: st 200ms 1 linear;
   animation: st 200ms 1 linear;
-  height: 65vw;
+  height: 75vh;
 }
 
 @-webkit-keyframes st {
@@ -61,8 +61,6 @@ html {
 #thumbnails a,
 #thumbnails img {
   display: inline-block;
-  width: 200px;
-  height: 150px;
   border: none;
 }
 

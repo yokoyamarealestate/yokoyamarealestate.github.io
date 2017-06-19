@@ -3,6 +3,7 @@ var th = document.getElementById('thumbnails'),
 var img = document.createElement('img');
 // first image
 img.src = 'img/living_room.jpg';
+img.className = 'large';
 // open 1 image
 box.appendChild(img)
 // on click show 

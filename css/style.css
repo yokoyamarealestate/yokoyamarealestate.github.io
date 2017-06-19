@@ -6,7 +6,6 @@ body {
 h2 {
   font-size: 6vw;
 }
-
 h3 {
   font-size: 3vw;
 }
@@ -34,23 +33,11 @@ section {
       -ms-flex-direction: column; 
           flex-direction: column;
   padding: 2vw;
-/*  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-*/  
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   font-size: 4vw; 
 }
-
-
-/*@media screen and (max-device-width: 800px) {
-  section {
-    background-attachment: scroll;
-  }
-}
-*/
 section:first-of-type h1{ 
   font-size: 10vw;
 }
@@ -61,23 +48,17 @@ section:first-of-type, section.pop {
   color: white;
   text-shadow: 4px 4px 2px black; 
 }
-.msg { 
+.white { 
   background: #fff;
 }
 .h30 {
   height: 30vh; 
 }
-.bed {
-  background-image: url();  
+.h90 {
+  height: 95vh;
 }
-.bath {
-  background-image: url(https://ds2.cityrealty.com/img/38ef81f1040f8405af377784ff7bca464a2db7f5+w+h+0+60/1600-broadway-05.jpg);  
-}
-.gym {
-  background-image: url(https://ds3.cityrealty.com/img/b82f2a9fc54f580f9dc6508ed306a7e8e82e3c57+w+h+0+60/1600-broadway-02.jpg);  
-}
-.patio {
-  background-image: url(../img/patio.jpg);  
+.blue {
+  background-color: #9BBFCD;  
 }
 .navbar-fixed-top {
     position: fixed;
@@ -100,8 +81,8 @@ section:first-of-type, section.pop {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
 }
-.h90 {
-  height: 90vh;
+#contact {
+  height: 80vh;
 }
 #amen li {
   padding-top: 10px;

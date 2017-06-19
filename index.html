@@ -5,7 +5,8 @@
     <title>Yokoyama Real Estate</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">   
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="css/photos.css">   
   </head>
   
   <!--Navbar begins-->
@@ -39,14 +40,54 @@
       <h2>Now Available for Rent</h2>
     </section>
 
-    <section class="h30 msg">
+    <section class="h30 msg blue">
       <h3>Located in the heart of New York City, this beautiful Times Square apartment is a modern, convenient, and comfortable living space.</h3>
     </section>
+    <section class="white">
+      <div id='gallery' class='gallery'>
+        <div class='current-image-wrapper'></div>
+        <ul id='thumbnails' class='thumbnails'>
+          <li>
+            <a class='thumbs' href='img/living_room.jpg'>
+              <img src='img/living_room.jpg'>
+            </a>
+          </li>
+          <li>
+            <a class='thumbs' href='img/master_bedroom.jpg'>
+              <img src='img/master_bedroom.jpg'>
+            </a>
+          </li>
+          <li>
+            <a class='thumbs' href='img/master_bathroom.jpg'>
+              <img src='img/master_bathroom.jpg'>
+            </a>
+          </li>
+          <li>
+            <a class='thumbs' href='img/second_bedroom.jpg'>
+              <img src='img/second_bedroom.jpg'>
+            </a>
+          </li>
+          <li>
+            <a class='thumbs' href='img/kitchen.jpg'>
+              <img src='img/kitchen.jpg'>
+            </a>
+          </li>
+          <li>
+            <a class='thumbs' href='img/office_alcove.jpg'>
+              <img src='img/office_alcove.jpg'>
+            </a>
+          </li>
+          <li>
+            <a class='thumbs' href='img/floor_plan.jpg'>
+              <img src='img/floor_plan.gif'>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-    <section id="photos" class="h90 bed"></section>
-    <section class="h90 bath"></section>
 
-    <section id="amen" class="h90 msg">
+    <section id="amen" class="msg blue">
       <h3>Tenants of 1600 Broadway will also enjoy 24/7 access to the following amenities:</h3>
       <h4>
         <li>Spacious Gym</li>
@@ -56,13 +97,11 @@
       </h4>
     </section>
 
-    <section class="h90 gym"></section>
-    <section class="h90 patio"></section>
-
-    <section id="contact" class="h90 msg">
+    <section id="contact" class="msg white">
       <h2>Contact:</h2>
       <h3>Naoko Yokoyama<br>917.848.0918</h3>
     </section>
+
     <!-- Scripts -->
     
     <!-- JavaScript's jQuery library is also necessary for Bootstrap-->
@@ -70,5 +109,6 @@
     <!-- Latest compiled and minified JavaScript for Bootstrap-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src='js/landing.js'></script>
+    <script src='js/photos.js'></script>
   </body>
 </html>

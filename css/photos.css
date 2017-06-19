@@ -32,6 +32,7 @@ html {
   transform: scale(1);
   -webkit-animation: st 200ms 1 linear;
   animation: st 200ms 1 linear;
+  width: 80vw;
 }
 
 @-webkit-keyframes st {

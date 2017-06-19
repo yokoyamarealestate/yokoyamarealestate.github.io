@@ -62,14 +62,14 @@ html {
 #thumbnails img {
   display: inline-block;
   border: none;
-  width: 400px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
 }
 
 #thumbnails a {
   outline: none;
 }
 .thumbs {
-  width: 400px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
 }

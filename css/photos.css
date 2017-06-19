@@ -61,8 +61,8 @@ html {
 #thumbnails a,
 #thumbnails img {
   display: inline-block;
-  width: 400px;
-  height: 300px;
+  width: 200px;
+  height: 150px;
   border: none;
 }
 

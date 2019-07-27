@@ -15,6 +15,8 @@ for i in dirs:
 	images = [k for k in glob.glob(os.path.join(i, '*')) if k.lower().endswith('.jpg')]
 	for j in images:
 		img = cv2.imread(j)
+		# img = cv2.resize(img, (0,0), fx=0.5, fy=0.5, interpolation=cv2.INTER_AREA)
+		# cv2.imwrite(j, img)
 		h, w, _ = img.shape
 
 		if w > h:
@@ -24,10 +26,6 @@ for i in dirs:
 			y1, y2 = h/2-w/2, h/2+w/2
 			square_img = img[y1:y2, :]
 
-		# if w < h:
-		# 	new_h = w*3024/4032
-		# 	img = img[h/2-new_h/2:h/2+new_h/2, :]
-		# img = cv2.resize(img, (252,189), interpolation=cv2.INTER_AREA)
 		img = cv2.resize(img, (250,250), interpolation=cv2.INTER_AREA)
 		basename = os.path.basename(j)
 		filepath = os.path.join(icon_dir, basename)

@@ -6,7 +6,9 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">  
-    <link rel="stylesheet" href="css/photos.css">   
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css'>
+    <link rel="stylesheet" href="css/photoswipe.css">
   </head>
   
   <!--Navbar begins-->
@@ -37,67 +39,282 @@
     <section class="h90">
       <img src="img/TSQ1.jpg" alt="" class="bgimg">
       <h1>1600 Broadway<br>Apt. &nbsp;&nbsp; 10G</h1>
-      <h2>Now Available for Rent</h2>
+      <h2>Now Available for Sale</h2>
     </section>
 
     <section class="h30 msg blue">
       <h3>Located in the heart of New York City, this beautiful Times Square apartment is a modern, convenient, and comfortable living space.</h3>
     </section>
+
     <section class="white">
-      <div id='gallery' class='gallery'>
-        <div class='current-image-wrapper'></div>
-        <ul id='thumbnails' class='thumbnails'>
-          <li>
-            <a href='img/living_room.jpg'>
-              <img class="thumbs" src='img/living_room.jpg'>
-            </a>
-          </li>
-          <li>
-            <a href='img/master_bedroom.jpg'>
-              <img class="thumbs" src='img/master_bedroom.jpg'>
-            </a>
-          </li>
-          <li>
-            <a href='img/master_bathroom.jpg'>
-              <img class="thumbs" src='img/master_bathroom.jpg'>
-            </a>
-          </li>
-          <li>
-            <a href='img/second_bedroom.jpg'>
-              <img class="thumbs" src='img/second_bedroom.jpg'>
-            </a>
-          </li>
-          <li>
-            <a href='img/kitchen.jpg'>
-              <img class="thumbs" src='img/kitchen.jpg'>
-            </a>
-          </li>
-          <li>
-            <a href='img/office_alcove.jpg'>
-              <img class="thumbs" src='img/office_alcove.jpg'>
-            </a>
-          </li>
-          <li>
-            <a href='img/floor_plan.jpg'>
-              <img class="thumbs" src='img/floor_plan.gif'>
-            </a>
-          </li>
-        </ul>
+      <h2>Apartment</h2>
+
+      <div class="my-gallery">
+        
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/living_room.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/living_room.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Living Room</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/living_room2.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/living_room2.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Living Room</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/master_bedroom.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/master_bedroom.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Master Bedroom</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/master_bedroom2.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/master_bedroom2.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Master Bedroom</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/master_bedroom3.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/master_bedroom3.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Master Bedroom</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/master_bathroom.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/master_bathroom.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Master Bedroom Bathroom</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/walk_in_closet.jpg" itemprop="contentUrl" data-size="3024x4032">
+              <img src="img/apartment/icons/walk_in_closet.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Master Bedroom Closet</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/second_bedroom.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/second_bedroom.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Second Bedroom</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/second_bedroom2.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/second_bedroom2.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Second Bedroom</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/second_bathroom.jpg" itemprop="contentUrl" data-size="3024x4032">
+              <img src="img/apartment/icons/second_bathroom.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Second Bathroom</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/dining_area.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/dining_area.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Dining Area</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/office.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/office.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Office Area</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/washer_dryer.jpg" itemprop="contentUrl" data-size="3024x4032">
+              <img src="img/apartment/icons/washer_dryer.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Closet Washer/Dryer</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/apartment/floor_plan.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/apartment/icons/floor_plan.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Floor Plan</figcaption>                         
+        </figure>
+
+      </div>
+
+      <!-- Root element of PhotoSwipe. Must have class pswp. -->
+      <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+          <!-- Background of PhotoSwipe. 
+               It's a separate element, as animating opacity is faster than rgba(). -->
+          <div class="pswp__bg"></div>
+
+          <!-- Slides wrapper with overflow:hidden. -->
+          <div class="pswp__scroll-wrap">
+
+              <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+              <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+              <div class="pswp__container">
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+                  <div class="pswp__item"></div>
+              </div>
+
+              <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+              <div class="pswp__ui pswp__ui--hidden">
+
+                  <div class="pswp__top-bar">
+
+                      <!--  Controls are self-explanatory. Order can be changed. -->
+
+                      <div class="pswp__counter"></div>
+
+                      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                      <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                      <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                      <!-- element will get class pswp__preloader--active when preloader is running -->
+                      <div class="pswp__preloader">
+                          <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                              <div class="pswp__preloader__donut"></div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                      <div class="pswp__share-tooltip"></div> 
+                  </div>
+
+                  <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                  </button>
+
+                  <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                  </button>
+
+                  <div class="pswp__caption">
+                      <div class="pswp__caption__center"></div>
+                  </div>
+
+                </div>
+
+              </div>
+
       </div>
     </section>
-
 
     <section id="amen" class="msg blue">
       <h3>Tenants of 1600 Broadway will also enjoy 24/7 access to the following amenities:</h3>
       <h4>
         <li>Spacious Gym</li>
         <li>Lounge with Pool Table</li>
-        <li>Outdoor Patio on 4th floor</li>
+        <li>Outdoor Patio</li>
         <li>Doormen staffing the Lobby</li>
       </h4>
     </section>
 
-    <section id="contact" class="msg white">
+    <section class="msg white">
+      <h2 style="margin-bottom: 0px;">Club on The Square</h2>
+      <p style="font-size:22px;"><i>Located on the 4th floor</i></p>
+
+      <div class="my-gallery">
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/lounge1.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/lounge1.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Lounge</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/lounge2.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/lounge2.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Lounge</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/lounge3.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/lounge3.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Lounge</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/gym1.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/gym1.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Gym</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/gym2.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/gym2.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Gym</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/gym3.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/gym3.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Gym</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/terrace1.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/terrace1.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Terrace</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/terrace2.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/terrace2.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Terrace</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/terrace3.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/terrace3.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Terrace</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/vending_machine.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/vending_machine.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">24/7 Vending Machine</figcaption>                         
+        </figure>
+
+        <figure itemprop="associatedMedia">
+          <a href="img/4th_floor/business_center.jpg" itemprop="contentUrl" data-size="4032x3024">
+              <img src="img/4th_floor/icons/business_center.jpg" itemprop="thumbnail" alt="Image description" />
+          </a>
+          <figcaption itemprop="caption description">Business Center</figcaption>                         
+        </figure>
+
+      </div>
+    </section>
+
+    <section id="contact" class="msg blue">
       <h2>Contact:</h2>
       <h3>Naoko Yokoyama<br>917.848.0918</h3>
     </section>
@@ -109,6 +326,8 @@
     <!-- Latest compiled and minified JavaScript for Bootstrap-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src='js/landing.js'></script>
-    <script src='js/photos.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js'></script>
+    <script src="js/photoswipe.js"></script>
+    <script src="js/photoswipe_init.js"></script>
   </body>
 </html>
